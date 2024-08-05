@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+header{
+    background-color: rgba(74, 71, 71, 0.524);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+header button{
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    margin: 5px;
+}
+.banner{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/294/871/original/reading-book-web-banner-design-open-book-with-stack-of-books-header-or-footer-banner-illustration-free-vector.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+section{
+    background-color: antiquewhite;
+    padding-top: 10px;
+}
+.row{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.col{
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    color: antiquewhite;
+    border-radius: 5%;
+    padding: 8px;
+}
+img{
+    padding-top: 20px;
+    border-radius: 10px;
+    width: 280px;
+    height: 280px;
+}
+img:hover{
+    box-shadow: 2px 4px black;
+}
+section span{
+    color: brown;
+    font-size: 15px;
+} 
+section button{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    width: 100px;  
+    height: 40px;
+    margin: 10px;
+    font-size: 15px;
+}
+button:hover{
+    background-color: greenyellow;
+    color: brown
+}
+footer{
+    background-color: rgba(74, 71, 71, 0.524);
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding: 10px;
+}
+footer h4{
+    color: white;
+}
+
+@media screen and (max-width:400px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 400px;
+        background-color: darkred;
+        color: rgb(181, 233, 241);
+        padding: 0px;
+    }
+
+    nav{
+        width: 400px;
+        background-color: crimson;
+        margin: 0px;
+        padding: 0px;
+    }
+    .row{
+        background-color: blanchedalmond;
+        width: 400px;
+        height: 1800px;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/002/294/871/original/reading-book-web-banner-design-open-book-with-stack-of-books-header-or-footer-banner-illustration-free-vector.jpg);
+        background-size: cover;
+        height: 400px;
+        width: 400px;
+    }
+}
